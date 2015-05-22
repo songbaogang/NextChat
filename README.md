@@ -7,6 +7,9 @@ JSQMessagesViewController + LeanCloud IM SDK
 
 修改一下 [DemoMessageViewController.m#L773-L790](https://github.com/leancloud/NextChat/blob/master/NextChat/DemoMessagesViewController.m#L773-L790) 即可。
 
+# 文档
+
+[实时通信服务开发指南](https://leancloud.cn/docs/realtime_v2.html)
 
 # 致谢  
 感谢以下项目和项目作者，
