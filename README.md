@@ -5,7 +5,7 @@ JSQMessagesViewController + LeanCloud IM SDK
 
 # 配置用户信息
 
-修改一下 [DemoMessageViewController.m 里的 相应的代码](https://github.com/leancloud/NextChat/blob/master/NextChat/DemoMessagesViewController.m#L773-L790) 即可。
+修改一下 [DemoMessageViewController.m#L773-L790](https://github.com/leancloud/NextChat/blob/master/NextChat/DemoMessagesViewController.m#L773-L790) 即可。
 
 
 # 致谢  
