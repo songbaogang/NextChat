@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6348E45E-33AF-4D74-A81B-AA5C50177DAF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NextChat</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D1F9F70025FA660182F75266D3D4F5D7ECED2B2C</key>
+		<string>github.com:lzwjava/ios-sdk.git</string>
+		<key>FF1C2D41E3A9B52DCF28320BBC080690D0341AA9</key>
+		<string>github.com:lzwjava/NextChat.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NextChat.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D1F9F70025FA660182F75266D3D4F5D7ECED2B2C</key>
+		<string>../../clojure/iOS-sdk</string>
+		<key>FF1C2D41E3A9B52DCF28320BBC080690D0341AA9</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:lzwjava/NextChat.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FF1C2D41E3A9B52DCF28320BBC080690D0341AA9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D1F9F70025FA660182F75266D3D4F5D7ECED2B2C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-sdk</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FF1C2D41E3A9B52DCF28320BBC080690D0341AA9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NextChat</string>
+		</dict>
+	</array>
+</dict>
+</plist>

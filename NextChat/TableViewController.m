@@ -110,8 +110,10 @@
 #pragma mark - Table view delegate
 
 - (void)openSessionByClientId:(NSString*)clientId navigationToIMWithTargetClientIDs:(NSArray *)clientIDs {
-    WEAKSELF
+    static NSInteger times = 0;
     [[LeanMessageManager manager] openSessionWithClientID:clientId completion:^(BOOL succeeded, NSError *error) {
+        times++;
+        NSLog(@"times = %ld", times);
         if(!error){
             ConversationType type;
             if(clientIDs.count>1){
