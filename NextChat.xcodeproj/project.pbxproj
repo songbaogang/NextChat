@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		70349D641AF789C800B1AE7C /* XHPhotographyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 70349D631AF789C800B1AE7C /* XHPhotographyHelper.m */; };
-		70705D351B107A090057F14E /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70705D221B1079EA0057F14E /* AVOSCloud.framework */; };
-		70705D361B107A0C0057F14E /* AVOSCloudIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70705D2A1B1079EA0057F14E /* AVOSCloudIM.framework */; };
 		70705D381B107A540057F14E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70705D371B107A540057F14E /* SystemConfiguration.framework */; };
 		70705D3A1B107A5B0057F14E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70705D391B107A5B0057F14E /* MobileCoreServices.framework */; };
 		70705D3C1B107A610057F14E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70705D3B1B107A610057F14E /* CoreTelephony.framework */; };
@@ -32,76 +30,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		70705D211B1079EA0057F14E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 70705D151B1079E90057F14E /* AVOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8C8419861A5A791300C5C6C4;
-			remoteInfo = AVOSCloud;
-		};
-		70705D231B1079EA0057F14E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 70705D151B1079E90057F14E /* AVOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8C8419911A5A791300C5C6C4;
-			remoteInfo = AVOSCloudTests;
-		};
-		70705D251B1079EA0057F14E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 70705D151B1079E90057F14E /* AVOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8C8419A51A5A794600C5C6C4;
-			remoteInfo = AVOSCloudSNS;
-		};
-		70705D271B1079EA0057F14E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 70705D151B1079E90057F14E /* AVOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8C8419AF1A5A794600C5C6C4;
-			remoteInfo = AVOSCloudSNSTests;
-		};
-		70705D291B1079EA0057F14E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 70705D151B1079E90057F14E /* AVOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8C8419C31A5A796000C5C6C4;
-			remoteInfo = AVOSCloudIM;
-		};
-		70705D2B1B1079EA0057F14E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 70705D151B1079E90057F14E /* AVOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8C8419CD1A5A796000C5C6C4;
-			remoteInfo = AVOSCloudIMTests;
-		};
-		70705D2D1B1079EA0057F14E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 70705D151B1079E90057F14E /* AVOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8C255D261AE9F815008A6FFC;
-			remoteInfo = AVOSCloudCrashReporting;
-		};
-		70705D2F1B1079EA0057F14E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 70705D151B1079E90057F14E /* AVOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8C255D301AE9F817008A6FFC;
-			remoteInfo = AVOSCloudCrashReportingTests;
-		};
-		70705D311B1079FF0057F14E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 70705D151B1079E90057F14E /* AVOS.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8C8419851A5A791300C5C6C4;
-			remoteInfo = AVOSCloud;
-		};
-		70705D331B107A020057F14E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 70705D151B1079E90057F14E /* AVOS.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8C8419C21A5A796000C5C6C4;
-			remoteInfo = AVOSCloudIM;
-		};
 		70A8F25D1AF7575200C6FA16 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 70A8F2381AF7575200C6FA16 /* Project object */;
@@ -116,7 +44,6 @@
 		50430FE90CCE00166A9F5CE6 /* Pods-NextChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NextChat/Pods-NextChat.debug.xcconfig"; sourceTree = "<group>"; };
 		70349D621AF789C800B1AE7C /* XHPhotographyHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHPhotographyHelper.h; sourceTree = "<group>"; };
 		70349D631AF789C800B1AE7C /* XHPhotographyHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHPhotographyHelper.m; sourceTree = "<group>"; };
-		70705D151B1079E90057F14E /* AVOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AVOS.xcodeproj; path = "../../clojure/iOS-sdk/AVOS/AVOS.xcodeproj"; sourceTree = "<group>"; };
 		70705D371B107A540057F14E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		70705D391B107A5B0057F14E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		70705D3B1B107A610057F14E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
@@ -161,8 +88,6 @@
 				70705D3C1B107A610057F14E /* CoreTelephony.framework in Frameworks */,
 				70705D3A1B107A5B0057F14E /* MobileCoreServices.framework in Frameworks */,
 				70705D381B107A540057F14E /* SystemConfiguration.framework in Frameworks */,
-				70705D361B107A0C0057F14E /* AVOSCloudIM.framework in Frameworks */,
-				70705D351B107A090057F14E /* AVOSCloud.framework in Frameworks */,
 				C920517DB69EA7726AC21654 /* libPods-NextChat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,21 +126,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		70705D161B1079E90057F14E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				70705D221B1079EA0057F14E /* AVOSCloud.framework */,
-				70705D241B1079EA0057F14E /* AVOSCloudTests.xctest */,
-				70705D261B1079EA0057F14E /* AVOSCloudSNS.framework */,
-				70705D281B1079EA0057F14E /* AVOSCloudSNSTests.xctest */,
-				70705D2A1B1079EA0057F14E /* AVOSCloudIM.framework */,
-				70705D2C1B1079EA0057F14E /* AVOSCloudIMTests.xctest */,
-				70705D2E1B1079EA0057F14E /* AVOSCloudCrashReporting.framework */,
-				70705D301B1079EA0057F14E /* AVOSCloudCrashReportingTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		70A15AE01AF87519001D177D /* XHDisplayMediaViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,7 +138,6 @@
 		70A8F2371AF7575200C6FA16 = {
 			isa = PBXGroup;
 			children = (
-				70705D151B1079E90057F14E /* AVOS.xcodeproj */,
 				70A8F2421AF7575200C6FA16 /* NextChat */,
 				70A8F25F1AF7575200C6FA16 /* NextChatTests */,
 				70A8F2411AF7575200C6FA16 /* Products */,
@@ -322,8 +231,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				70705D341B107A020057F14E /* PBXTargetDependency */,
-				70705D321B1079FF0057F14E /* PBXTargetDependency */,
 			);
 			name = NextChat;
 			productName = NextChat;
@@ -377,12 +284,6 @@
 			mainGroup = 70A8F2371AF7575200C6FA16;
 			productRefGroup = 70A8F2411AF7575200C6FA16 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 70705D161B1079E90057F14E /* Products */;
-					ProjectRef = 70705D151B1079E90057F14E /* AVOS.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				70A8F23F1AF7575200C6FA16 /* NextChat */,
@@ -390,65 +291,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		70705D221B1079EA0057F14E /* AVOSCloud.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AVOSCloud.framework;
-			remoteRef = 70705D211B1079EA0057F14E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		70705D241B1079EA0057F14E /* AVOSCloudTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = AVOSCloudTests.xctest;
-			remoteRef = 70705D231B1079EA0057F14E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		70705D261B1079EA0057F14E /* AVOSCloudSNS.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AVOSCloudSNS.framework;
-			remoteRef = 70705D251B1079EA0057F14E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		70705D281B1079EA0057F14E /* AVOSCloudSNSTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = AVOSCloudSNSTests.xctest;
-			remoteRef = 70705D271B1079EA0057F14E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		70705D2A1B1079EA0057F14E /* AVOSCloudIM.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AVOSCloudIM.framework;
-			remoteRef = 70705D291B1079EA0057F14E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		70705D2C1B1079EA0057F14E /* AVOSCloudIMTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = AVOSCloudIMTests.xctest;
-			remoteRef = 70705D2B1B1079EA0057F14E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		70705D2E1B1079EA0057F14E /* AVOSCloudCrashReporting.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AVOSCloudCrashReporting.framework;
-			remoteRef = 70705D2D1B1079EA0057F14E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		70705D301B1079EA0057F14E /* AVOSCloudCrashReportingTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = AVOSCloudCrashReportingTests.xctest;
-			remoteRef = 70705D2F1B1079EA0057F14E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		70A8F23E1AF7575200C6FA16 /* Resources */ = {
@@ -531,16 +373,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		70705D321B1079FF0057F14E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AVOSCloud;
-			targetProxy = 70705D311B1079FF0057F14E /* PBXContainerItemProxy */;
-		};
-		70705D341B107A020057F14E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AVOSCloudIM;
-			targetProxy = 70705D331B107A020057F14E /* PBXContainerItemProxy */;
-		};
 		70A8F25E1AF7575200C6FA16 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 70A8F23F1AF7575200C6FA16 /* NextChat */;

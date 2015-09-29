@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FF1C2D41E3A9B52DCF28320BBC080690D0341AA9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D1F9F70025FA660182F75266D3D4F5D7ECED2B2C" : 0,
+    "FF1C2D41E3A9B52DCF28320BBC080690D0341AA9" : 0,
+    "0A02D7AD172CD0FE10B50DDED69BA407037CC7BF" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6348E45E-33AF-4D74-A81B-AA5C50177DAF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D1F9F70025FA660182F75266D3D4F5D7ECED2B2C" : "clojure\/iOS-sdk",
+    "FF1C2D41E3A9B52DCF28320BBC080690D0341AA9" : "NextChat",
+    "0A02D7AD172CD0FE10B50DDED69BA407037CC7BF" : "..\/avos\/iOS-sdk\/Breakpad"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NextChat",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "NextChat.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:leancloud\/Breakpad.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0A02D7AD172CD0FE10B50DDED69BA407037CC7BF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:lzwjava\/ios-sdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D1F9F70025FA660182F75266D3D4F5D7ECED2B2C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:lzwjava\/NextChat.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FF1C2D41E3A9B52DCF28320BBC080690D0341AA9"
+    }
+  ]
+}

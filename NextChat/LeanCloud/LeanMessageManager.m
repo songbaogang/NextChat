@@ -69,14 +69,26 @@
     _didReceiveTypedMessageCompletion = [didReceiveTypedMessageCompletion copy];
 }
 
+- (void)openWithClientId:(NSString *)clientId callback:(AVIMBooleanResultBlock)callback {
+    NSString *tag;
+    if (TARGET_IPHONE_SIMULATOR) {
+        tag = @"simulator";
+    } else {
+        tag = @"ios";
+    }
+    
+    [self.leanClient openWithClientId:clientId callback:callback];
+//    [self.leanClient openWithClientId:clientId tag:tag callback:callback];
+}
+
 - (void)openSessionWithClientID:(NSString *)clientID
                      completion:(void (^)(BOOL succeeded, NSError *error))completion {
     self.selfClientID = clientID;
     if (self.leanClient.status == AVIMClientStatusNone) {
-        [self.leanClient openWithClientId:clientID callback:completion];
+        [self openWithClientId:clientID callback:completion];
     } else {
         [self.leanClient closeWithCallback:^(BOOL succeeded, NSError *error) {
-            [self.leanClient openWithClientId:clientID callback:completion];
+            [self openWithClientId:clientID callback:completion];
         }];
     }
 }
@@ -95,6 +107,7 @@
     AVIMConversationQuery *query = [self.leanClient conversationQuery];
     NSMutableArray *queryClientIDs = [[NSMutableArray alloc] initWithArray:clientIDs];
     [queryClientIDs insertObject:self.selfClientID atIndex:0];
+    [query orderByDescending:@"createdAt"];
     [query whereKey:kAVIMKeyMember containsAllObjectsInArray:queryClientIDs];
     [query whereKey:AVIMAttr(@"type") equalTo:[NSNumber numberWithInt:conversationType]];
     [query findConversationsWithCallback:^(NSArray *objects, NSError *error) {
@@ -138,6 +151,10 @@
     if(self.didReceiveTypedMessageCompletion){
         self.didReceiveTypedMessageCompletion(conversation,message);
     }
+}
+
+- (void)client:(AVIMClient *)client didOfflineWithError:(NSError *)error {
+    NSLog(@"offline error:%@", error);
 }
 
 @end

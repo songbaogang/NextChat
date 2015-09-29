@@ -579,10 +579,10 @@
 
 -(void)loadMessagesWhenInit{
     WEAKSELF
-    [self.conversation queryMessagesBeforeId:nil timestamp:0 limit:10 callback:^(NSArray *typedMessages, NSError *error) {
+    [self.conversation queryMessagesWithLimit:10 callback:^(NSArray *objects, NSError *error) {
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
             NSMutableArray* messages=[NSMutableArray array];
-            for(AVIMTypedMessage* typedMessage in typedMessages){
+            for(AVIMTypedMessage* typedMessage in objects){
                 [messages addObject:[weakSelf displayMessageByAVIMTypedMessage:typedMessage]];
             }
             dispatch_async(dispatch_get_main_queue(), ^{
